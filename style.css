@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1550px;
+    height: 96%;
+}
+/*header area start*/
+
+.header{
+    display: flex;
+    height: 133px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+button{
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 1px solid #000;
+}
+button a{
+    text-decoration: none;
+    color: #000;
+}
+/*header area end*/
+/*banner area start*/
+
+.banner-area{
+    position: relative;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 616px;
+    width: 100%;
+    
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.banner-text h1{
+    color:wheat;
+}
+button{
+    color: aliceblue;
+}
+/*banner area end*/
+/*principal area start*/
+
+
+.principal{
+    display: flex;
+    padding: 40px 0 40px 0;
+    
+}
+.principal-img{
+    margin-right: 100px;
+}
+.principal-text{
+    width: 578px;
+    height: 285px;
+    top: 1010px;
+    left: 710px;
+
+}
+button{
+    padding: 10px;
+     border: 1px;
+}
+button a{
+    text-decoration: none;
+    
+
+}
+/*principal area end*/
+/*life area start*/
+.life-area{
+    background-color: #62AF9E;
+    ;
+}
+
+
+.life{
+    display: flex;
+    padding: 50px 0 50px 0;
+}
+.life-img{
+    margin-left: 850px;
+    
+}
+.life-text{
+    position: absolute;
+    text-align: center;
+    width: 501px;
+    height: 58px;
+   top: 1600px;
+   left: 119px;
+
+}
+.life form input{
+    padding: 20px 180px 20px 20px;
+    background-color: #C2DAD4;
+}
+
+.life input{
+    padding: 20px 50px 20px 50px;
+    background-color: #62AF9E;
+}
+/*life area end*/
+.Services-area{
+    width: 1440px;
+    height: 800px;
+}
+.Services{
+    text-align: center;
+}
+.img{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*philosopyarea start*/
+.Philosophy-area{
+    background-color: #DFE8E6;
+    ;
+}
+.Philosophy{
+    display: flex;
+    padding: 40px 0 40px 0;
+    
+}
+.Philosophy-img{
+    margin-right: 50px;
+}
+.Philosophy-text{
+
+    width: 703px;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.045em;
+    
+}
+
+.find-img{
+    margin-left: 880px;
+    padding: 20px 0 20px 0;
+    
+}
+
+.find-text{
+   
+    position: absolute;
+   
+    width: 401px;
+    top: 4000px;
+    left: 219px;
+    line-height: 30px;
+    letter-spacing: 0.045em;
+}
+
+
+
+
+.mind-area{
+    background-color:#DFDFDF;
+    ;
+}
+.mind{
+    display: flex;
+    padding: 40px 0 40px 0;
+    
+}
+.mind-text{
+    text-align: center;
+    height: 178px;
+    font-family: Gilroy;   
+}
+
+.header{
+    display: flex;
+    height: 133px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    margin-left: 1.5rem;
+
+}
+button{
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 1px solid #000;
+}
+button a{
+    text-decoration: none;
+    color: #000;
+}
