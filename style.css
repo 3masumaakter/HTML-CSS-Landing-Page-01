@@ -14,6 +14,7 @@
     height: 133px;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 .header ul li{
     list-style: none;
