@@ -25,7 +25,7 @@
 }
 button{
     padding: 10px;
-    background-color: cornflowerblue;
+    background-color: wheat;
     border: 1px solid #000;
 }
 button a{
@@ -41,6 +41,7 @@ button a{
     background-size: cover;
     height: 616px;
     width: 100%;
+    margin: 20px;
     
 }
 .banner-text{
@@ -54,7 +55,7 @@ button a{
     color:wheat;
 }
 button{
-    color: aliceblue;
+    color: black;
 }
 /*banner area end*/
 /*principal area start*/
@@ -62,17 +63,19 @@ button{
 
 .principal{
     display: flex;
-    padding: 40px 0 40px 0;
+    padding: 30px 0 30px 0;
     
 }
 .principal-img{
-    margin-right: 100px;
+    margin-right: 70px;
+    margin: 30px;
 }
 .principal-text{
-    width: 578px;
-    height: 285px;
+    width: 778px;
+    height: 585px;
     top: 1010px;
     left: 710px;
+    margin-top: 30px;
 
 }
 button{
@@ -97,7 +100,7 @@ button a{
     padding: 50px 0 50px 0;
 }
 .life-img{
-    margin-left: 850px;
+    margin-left: 950px;
     
 }
 .life-text{
@@ -120,16 +123,20 @@ button a{
 }
 /*life area end*/
 .Services-area{
-    width: 1440px;
-    height: 800px;
+    width: 1400px;
+    height: 540px;
+    margin: 40px;
+
 }
 .Services{
     text-align: center;
 }
 .img{
-    margin-top: 200px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    padding: 30px;
+
 }
 
 /*philosopyarea start*/
@@ -165,8 +172,8 @@ button a{
    
     position: absolute;
    
-    width: 401px;
-    top: 4000px;
+    width: 501px;
+    top: 3900px;
     left: 219px;
     line-height: 30px;
     letter-spacing: 0.045em;
@@ -192,7 +199,7 @@ button a{
 
 .header{
     display: flex;
-    height: 133px;
+    height: 85px;
     justify-content: space-between;
     align-items: center;
 }
@@ -206,8 +213,8 @@ button a{
 
 }
 button{
-    padding: 10px;
-    background-color: cornflowerblue;
+    padding: 20px;
+    background-color:white;
     border: 1px solid #000;
 }
 button a{
